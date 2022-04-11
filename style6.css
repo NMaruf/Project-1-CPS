@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+}
+
+.header {
+    border-top: 1px solid #D9FFF5;
+    padding: 16px;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+}
+
+.header-text{
+    margin: 0;
+    font-family: "TT Lakes", Arial, sans-serif;
+    font-size: 16px;
+    color: #7E7E82;
+    line-height: 24px;
+    font-weight: lighter;
+    letter-spacing: -0.2px;
+}
+
+img{
+    vertical-align: top;
+}
+
+.swiper-container {
+    background-color: #F2F2F2;
+
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    height: 154px;
+}
+
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 16px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    width: 208px !important;
+
+}
+
+img {
+    /*max-width: 100%;*/
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.swiper-slide__button {
+}
+
+.swiper-pagination {
+    bottom: 38px;
+}
+
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #B5B6BC;
+    margin: 0 6px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 35px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 56px;
+        padding-left: 24px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
