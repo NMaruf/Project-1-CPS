@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CPS</title>
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link href="style6.css" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet">
 </head>
@@ -15,7 +12,7 @@
     <header class="header">
         <h1 class="header-text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
     </header>
-    <div class="swiper swiper-container">
+    <div class="swiper swiper-container" data-mobile="false">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                     <img src="img/Lenovo.svg" alt="Lenovo">
@@ -49,12 +46,47 @@
                 <img src="img/Sony.svg" alt="Sony">
                 <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
             </div>
+            <div class="swiper-slide hidden">
+                <img src="img/Samsung.svg" alt="Samsung">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+            </div>
+            <div class="swiper-slide hidden">
+                <img src="img/Bosch.svg" alt="Bosch">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+            </div>
+            <div class="swiper-slide hidden">
+                <img src="img/HP.svg" alt="HP">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+            </div>
+            <div class="swiper-slide hidden">
+                <img src="img/Acer.svg" alt="Acer">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+            </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+<!--        <div class="swiper-button-prev"></div>-->
+<!--        <div class="swiper-button-next"></div>-->
         <div class="swiper-pagination"></div>
+        <div class="all-slides">
+            <button class="all-slides-show show" onclick="showSlides()">Показать всё</button>
+            <button class="all-slides-hide hidden" onclick="showSlides()">Скрыть</button>
+        </div>
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        let showSlides = function () {
+            let hiddenSlides = document.querySelectorAll('.hidden');
+            let buttonShow = document.querySelector('.show');
+            for (let i = 0; i <= hiddenSlides.length; i++) {
+                if (hiddenSlides[i].style.display === 'none') {
+                    hiddenSlides[i].style.display = 'flex';
+                    buttonShow.style.display = 'none'
+                } else {
+                    hiddenSlides[i].style.display = 'none';
+                    buttonShow.style.display = 'block'
+                }
+            }
+        }
+    </script>
 </body>
 </html>

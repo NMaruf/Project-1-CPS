@@ -40,9 +40,8 @@ img{
 }
 
 .swiper-wrapper {
-    height: 154px;
+    /*height: 154px;*/
 }
-
 
 .swiper-slide {
     display: flex;
@@ -52,11 +51,11 @@ img{
     text-align: center;
     background-color: #ffffff;
     border-radius: 6px;
-    padding: 16px;
-    height: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    height: 72px;
     border: 1px solid #EAEAEA;
     width: 208px !important;
-
 }
 
 img {
@@ -69,7 +68,8 @@ img {
 }
 
 .swiper-pagination {
-    bottom: 38px;
+    position: relative;
+    bottom: 14px;
 }
 
 .swiper-container .swiper-pagination .swiper-pagination-bullet {
@@ -80,7 +80,51 @@ img {
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 35px;
+    bottom: 0;
+}
+
+.swiper-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.swiper-wrapper {
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.all-slides-show {
+    display: none;
+    width: 8.5em;
+    font-family: "TT Lakes", Arial, sans-serif;
+    font-size: 16px;
+    padding: 0.3em 0 0.3em 2em;
+    background: url("img/expand.svg") no-repeat;
+    border: none;
+    margin-left: 24px;
+}
+
+.all-slides-hide {
+    display: none;
+    width: 8.5em;
+    font-family: "TT Lakes", Arial, sans-serif;
+    font-size: 16px;
+    padding: 0.3em 0 0.3em 2em;
+    background: url("img/expand.svg") no-repeat;
+    border: none;
+    margin-left: 24px;
+    text-align: left;
+}
+
+
+@media (max-width: 767px) {
+    .swiper-wrapper {
+        flex-wrap: nowrap;
+    }
+
+    button.show, button.hidden {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -88,8 +132,33 @@ img {
         height: 56px;
         padding-left: 24px;
     }
-
+    .swiper-container {
+        padding-top: 8px;
+    }
     .swiper-pagination {
         display: none;
+    }
+
+    .swiper-slide {
+        width: 190px !important;
+        margin: 8px 0;
+    }
+
+    .swiper-wrapper {
+        justify-content: space-evenly;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .all-slides-show {
+        display: block;
+    }
+}
+
+@media (min-width: 1120px) {
+    .swiper-slide {
+        width: 208px !important;
     }
 }
