@@ -10,21 +10,21 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="header-text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
+        <h1 class="header__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
     </header>
     <div class="swiper swiper-container" data-mobile="false">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                    <img src="img/Lenovo.svg" alt="Lenovo">
-                    <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+                <img src="img/Lenovo.svg" alt="Lenovo">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
             </div>
             <div class="swiper-slide">
-                    <img src="img/Samsung.svg" alt="Samsung">
-                    <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+                <img src="img/Samsung.svg" alt="Samsung">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
             </div>
             <div class="swiper-slide">
-                    <img src="img/Apple.svg" alt="Apple">
-                    <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
+                <img src="img/Apple.svg" alt="Apple">
+                <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
             </div>
             <div class="swiper-slide">
                 <img src="img/Bosch.svg" alt="Bosch">
@@ -63,30 +63,14 @@
                 <a href="#" class="swiper-slide__button"><img src="img/go.svg" alt="go"></a>
             </div>
         </div>
-<!--        <div class="swiper-button-prev"></div>-->
-<!--        <div class="swiper-button-next"></div>-->
         <div class="swiper-pagination"></div>
         <div class="all-slides">
-            <button class="all-slides-show show" onclick="showSlides()">Показать всё</button>
-            <button class="all-slides-hide hidden" onclick="showSlides()">Скрыть</button>
+            <button class="all-slides__show show" onclick="showSlides()">Показать всё</button>
+            <button class="all-slides__hide hidden" onclick="showSlides()">Скрыть</button>
         </div>
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
     <script src="script.js"></script>
-    <script>
-        let showSlides = function () {
-            let hiddenSlides = document.querySelectorAll('.hidden');
-            let buttonShow = document.querySelector('.show');
-            for (let i = 0; i <= hiddenSlides.length; i++) {
-                if (hiddenSlides[i].style.display === 'none') {
-                    hiddenSlides[i].style.display = 'flex';
-                    buttonShow.style.display = 'none'
-                } else {
-                    hiddenSlides[i].style.display = 'none';
-                    buttonShow.style.display = 'block'
-                }
-            }
-        }
-    </script>
 </body>
 </html>

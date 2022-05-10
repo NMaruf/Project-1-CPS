@@ -16,7 +16,7 @@ body {
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 }
 
-.header-text{
+.header__text {
     margin: 0;
     font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
@@ -32,7 +32,6 @@ img{
 
 .swiper-container {
     background-color: #F2F2F2;
-
 }
 
 .swiper {
@@ -40,7 +39,6 @@ img{
 }
 
 .swiper-wrapper {
-    /*height: 154px;*/
 }
 
 .swiper-slide {
@@ -59,7 +57,6 @@ img{
 }
 
 img {
-    /*max-width: 100%;*/
     margin-left: 0;
     padding-left: 0;
 }
@@ -89,28 +86,27 @@ img {
 }
 
 .swiper-wrapper {
-    /*justify-content: space-between;*/
     flex-wrap: wrap;
 }
 
-.all-slides-show {
+.all-slides__show {
     display: none;
     width: 8.5em;
     font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     padding: 0.3em 0 0.3em 2em;
-    background: url("img/expand.svg") no-repeat;
+    background: url("img/expand_1.svg") no-repeat;
     border: none;
     margin-left: 24px;
 }
 
-.all-slides-hide {
+.all-slides__hide {
     display: none;
     width: 8.5em;
     font-family: "TT Lakes", Arial, sans-serif;
     font-size: 16px;
     padding: 0.3em 0 0.3em 2em;
-    background: url("img/expand.svg") no-repeat;
+    background: url("img/expand_1.svg") no-repeat;
     border: none;
     margin-left: 24px;
     text-align: left;
@@ -125,6 +121,14 @@ img {
     button.show, button.hidden {
         display: none;
     }
+
+    .swiper-wrapper {
+        margin-left: 16px;
+    }
+
+    .all-slides {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -132,33 +136,43 @@ img {
         height: 56px;
         padding-left: 24px;
     }
+
     .swiper-container {
         padding-top: 8px;
     }
+
     .swiper-pagination {
         display: none;
     }
 
-    .swiper-slide {
+    .swiper-wrapper .swiper-slide {
         width: 190px !important;
-        margin: 8px 0;
+        /*margin: 8px 0 8px 24px;*/
+        margin-left: 24px;
+        margin-right: 0 !important;
     }
 
     .swiper-wrapper {
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
 
     .hidden {
         display: none;
     }
 
-    .all-slides-show {
+    .all-slides__show {
         display: block;
     }
+
+    .all-slides__hide {
+        background: url("img/expand_2.svg") no-repeat;
+    }
+
 }
 
 @media (min-width: 1120px) {
-    .swiper-slide {
+    .swiper-wrapper .swiper-slide {
         width: 208px !important;
+        margin-left: 32px;
     }
 }
