@@ -19,27 +19,27 @@
             </ul>
             <ul class="menu__list logo">
               <li class="menu__item logo__item">
-                <a class="menu__item-link"><img src="./img/Group.svg" alt="main-logo"></a>
+                <a href="#" class="menu__item-link"><img src="./img/Group.svg" alt="main-logo"></a>
               </li>
             </ul>
             <ul class="menu__list contacts">
               <li class="menu__item contacts__item call">
-                <a class="menu__item-link"><img src="./img/call.svg" alt="phone"></a>
+                <a href="#" class="menu__item-link"><img src="./img/call.svg" alt="phone"></a>
               </li>
               <li class="menu__item contacts__item chat">
-                <a class="menu__item-link"><img src="./img/chat.svg" alt="chat-logo"></a>
+                <a href="#" class="menu__item-link"><img src="./img/chat.svg" alt="chat-logo"></a>
               </li>
               <li class="menu__item contacts__item">
-                <a class="menu__item-link"><img src="./img/profile.svg" alt="person-logo"></a>
+                <a href="#" class="menu__item-link"><img src="./img/profile.svg" alt="person-logo"></a>
               </li>
             </ul>
 
             <ul class="menu__list service">
               <li class="menu__item service__item">
-                <a class="menu__item-link"><img src="./img/repair.svg" alt="service"></a>
+                <a href="#" class="menu__item-link"><img src="./img/repair.svg" alt="service"></a>
               </li>
               <li class="menu__item service__item">
-                <a class="menu__item-link"><img src="./img/checkstatus.svg" alt="search"></a>
+                <a href="#" class="menu__item-link"><img src="./img/checkstatus.svg" alt="search"></a>
               </li>
             </ul>
           </nav>
@@ -441,7 +441,7 @@
       <aside class="modal-feedback">
         <div class="container">
           <nav class="modal-feedback__nav">
-            <a class="modal-feedback__btn">
+            <a href="#" class="modal-feedback__btn">
               <img src="./img/burger-close.svg" alt="close-button">
             </a>
           </nav>
@@ -450,10 +450,10 @@
           </h2>
           <div class="modal-feedback__form form">
             <form action="#" method="post" class="form__feedback">
-              <input type="text" placeholder="Имя">
-              <input type="phone" placeholder="Телефон">
-              <input type="email" placeholder="Электронная почта">
-              <textarea name="message" placeholder="Сообщение" cols="30" rows="10"></textarea>
+              <input type="text" placeholder="Имя" aria-label="Имя" autofocus>
+              <input type="tel" placeholder="Телефон" aria-label="Телефон">
+              <input type="email" placeholder="Электронная почта" aria-label="Электронная почта">
+              <textarea name="message" placeholder="Сообщение" cols="30" rows="10" aria-label=""></textarea>
               <p>
                 Нажимая “отправить”, вы даете согласие на
                 <a id="link" href="#" title="persona-data-link">обработку персональных данных</a>
@@ -480,8 +480,8 @@
             Заказать звонок
           </div>
           <div class="modal-call__form form">
-            <form action="post" class="form__call">
-              <input type="phone" placeholder="Телефон">
+            <form action="#" method="post" class="form__call">
+              <input type="tel" placeholder="Телефон" aria-label="Телефон" autofocus>
               <p>
                 Нажимая “отправить”, вы даете согласие на
                 <a id="link" href="#" title="persona-data-link">обработку персональных данных</a>

@@ -1,5 +1,5 @@
 /**
- * Swiper 8.2.2
+ * Swiper 8.2.5
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: June 1, 2022
+ * Released on: June 27, 2022
  */
 
 @font-face {
@@ -425,7 +425,8 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar.swiper-scrollbar-disabled {
   display: none !important;
 }
-.swiper-horizontal > .swiper-scrollbar {
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
   position: absolute;
   left: 1%;
   bottom: 3px;
@@ -433,7 +434,8 @@ button.swiper-pagination-bullet {
   height: 5px;
   width: 98%;
 }
-.swiper-vertical > .swiper-scrollbar {
+.swiper-vertical > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-vertical {
   position: absolute;
   right: 3px;
   top: 1%;
@@ -733,8 +735,14 @@ p {
   align-items: center; }
   .title__desktop:first-child {
     margin-right: 32px; }
+    .title__desktop:first-child:hover {
+      transition: filter 0.3s ease-in-out;
+      filter: opacity(65%); }
   .title__desktop:last-child {
     margin-right: 30px; }
+    .title__desktop:last-child:hover {
+      transition: filter 0.3s ease-in-out;
+      filter: opacity(65%); }
   .title__desktop p {
     margin: 0;
     margin-right: 8px;
@@ -775,17 +783,28 @@ p {
       filter: opacity(65%); }
     .menu__close:focus {
       filter: opacity(65%); }
-  @media (min-width: 768px) {
-    .menu__item.burger {
-      margin-right: 15px;
-      margin-left: 24px; }
+  .menu__item {
+    transition: filter 0.3s ease-in-out; }
+    .menu__item:hover {
+      filter: opacity(65%); }
+    .menu__item:focus {
+      filter: opacity(65%); }
+    @media (min-width: 768px) {
+      .menu__item.burger {
+        margin-right: 15px;
+        margin-left: 24px; }
+      .menu__item.logo__item {
+        margin-left: 20px; } }
     .menu__item.logo__item {
-      margin-left: 20px; } }
-  .menu__item.logo__item {
-    flex: 1; }
-  .menu__item.burger {
-    width: 40px;
-    height: 40px; }
+      flex: 1;
+      transition: none; }
+      .menu__item.logo__item:hover {
+        filter: none; }
+      .menu__item.logo__item:focus {
+        filter: none; }
+    .menu__item.burger {
+      width: 40px;
+      height: 40px; }
   .menu__list {
     display: flex;
     justify-content: center;
@@ -855,6 +874,36 @@ p {
     @media (min-width: 1440px) {
       .wrapper__main {
         margin-left: 320px; } }
+  .wrapper__modals .menu-wrap {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 320px; }
+    @media (min-width: 360px) {
+      .wrapper__modals .menu-wrap {
+        left: 360px; } }
+    @media (min-width: 1440px) {
+      .wrapper__modals .menu-wrap {
+        display: none; } }
+  .wrapper__modals .feedback-wrap {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 320px; }
+    @media (min-width: 1440px) {
+      .wrapper__modals .feedback-wrap {
+        right: 440px; } }
+  .wrapper__modals .call-wrap {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 320px; }
+    @media (min-width: 1440px) {
+      .wrapper__modals .call-wrap {
+        right: 440px; } }
 
 .main {
   background-color: #F8F8F8; }
@@ -964,6 +1013,10 @@ p {
       display: flex;
       cursor: pointer; } }
 
+.full-title:hover {
+  transition: filter 0.3s ease-in-out;
+  filter: opacity(65%); }
+
 .btn-hidden {
   display: none; }
 
@@ -1015,6 +1068,8 @@ p {
   height: 72px;
   border: 1px solid #EAEAEA;
   width: 208px !important; }
+  .swiper-slide:hover {
+    filter: drop-shadow(0 0 0.2rem grey); }
 
 .swiper-pagination {
   position: relative;
@@ -1078,7 +1133,10 @@ p {
       font-size: 16px;
       line-height: 24px;
       letter-spacing: -0.2px;
-      color: #1B1C21; } }
+      color: #1B1C21; }
+      .brends__full:hover {
+        transition: filter 0.3s ease-in-out;
+        filter: opacity(65%); } }
 
 @media (min-width: 768px) {
   .brends__list {
@@ -1114,7 +1172,7 @@ p {
     width: 100%;
     padding-right: 24px; }
     .brend-wrapper--hide {
-      height: 180px;
+      height: 185px;
       overflow: hidden; }
     .brend-wrapper--show {
       height: auto; } }
@@ -1129,6 +1187,9 @@ p {
     align-self: flex-end; }
   .technics__full {
     display: none; }
+    .technics__full:hover {
+      transition: filter 0.3s ease-in-out;
+      filter: opacity(65%); }
     @media (min-width: 768px) {
       .technics__full {
         display: flex;
@@ -1232,7 +1293,9 @@ article:not(:first-of-type) {
       border-radius: 0;
       padding: 23px 16px;
       margin-left: 0 !important;
-      margin-top: 0; } }
+      margin-top: 0; }
+      .prices__item:hover {
+        filter: none; } }
   @media (min-width: 1440px) {
     .prices__item {
       justify-content: space-between; } }
@@ -1295,7 +1358,9 @@ article:not(:first-of-type) {
   transform: translate(110px, 0); }
   @media (min-width: 768px) {
     .prices__button {
-      transform: translate(98px, 3px); } }
+      transform: translate(98px, 3px); }
+      .prices__button:hover {
+        filter: drop-shadow(0 0 0.25rem #ff3e79); } }
   @media (min-width: 1440px) {
     .prices__button {
       transform: translate(210px, 3px); } }
@@ -1419,12 +1484,12 @@ article:not(:first-of-type) {
         padding-bottom: 21px; } }
 
 .footer__item {
-  transition: 0.1s filter ease-in-out; }
+  transition: 0.3s filter ease-in-out; }
   .footer__item:hover {
-    filter: hue-rotate(70deg) opacity(90%);
+    filter: opacity(65%);
     cursor: pointer; }
   .footer__item:focus {
-    filter: hue-rotate(70deg) opacity(90%);
+    filter: opacity(65%);
     cursor: pointer; }
 
 .footer__mail {
@@ -1454,7 +1519,7 @@ article:not(:first-of-type) {
   display: block;
   width: 320px;
   height: 100%;
-  z-index: 3;
+  z-index: 1;
   color: #1B1C21;
   font-family: 'TT Lakes Medium';
   font-size: 16px;
@@ -1464,10 +1529,6 @@ article:not(:first-of-type) {
   @media (min-width: 360px) {
     .side-menu {
       width: 360px; } }
-  @media (min-width: 768px) {
-    .side-menu {
-      overflow: auto;
-      height: auto; } }
   @media (min-width: 1440px) {
     .side-menu {
       transform: scaleX(1) translateX(0);
@@ -1487,7 +1548,10 @@ article:not(:first-of-type) {
     height: 100%;
     flex-direction: column;
     background-color: white; }
-    @media (min-width: 1120px) {
+    @media (min-width: 768px) {
+      .side-menu .container {
+        height: auto; } }
+    @media (min-width: 1440px) {
       .side-menu .container {
         box-shadow: none; } }
   .side-menu__footer {
@@ -1511,7 +1575,9 @@ article:not(:first-of-type) {
         flex: none; } }
     @media (min-width: 768px) {
       .side-menu__section {
-        height: 684px;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
         flex: none; } }
     @media (min-width: 1440px) {
       .side-menu__section {
@@ -1529,6 +1595,10 @@ article:not(:first-of-type) {
   margin-left: -29px;
   position: absolute;
   height: 32px; }
+
+@media (min-width: 768px) {
+  .section-menu__list {
+    margin-bottom: 268px; } }
 
 @media (min-width: 1440px) {
   .section-menu__list::before {
@@ -1561,9 +1631,8 @@ article:not(:first-of-type) {
   cursor: pointer;
   transition: all 0.1s ease-in-out; }
   .feedback__item:hover {
-    color: #7E7E82; }
-  .feedback__item:focus {
-    color: #7E7E82; }
+    transition: filter 0.3s ease-in-out;
+    filter: opacity(65%); }
   .feedback__item a {
     text-decoration: none; }
 
@@ -1730,6 +1799,8 @@ article:not(:first-of-type) {
 .form__feedback #submit {
   display: flex;
   justify-content: flex-end; }
+  .form__feedback #submit:hover {
+    filter: drop-shadow(0 0 0.25rem #ff3e79); }
 
 .form__feedback #link {
   text-decoration: none;
@@ -1804,6 +1875,8 @@ article:not(:first-of-type) {
 .form__call #submit {
   display: flex;
   justify-content: flex-end; }
+  .form__call #submit:hover {
+    filter: drop-shadow(0 0 0.25rem #ff3e79); }
 
 .modal-call {
   position: fixed;
