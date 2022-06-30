@@ -1,0 +1,23 @@
+.service {
+
+  &::before{
+    content: "";
+    height: 32px;
+    border: 1px solid $before;
+    border-radius: 2px;
+    margin-left: 20px;
+  }
+
+  .menu__item{
+    width: 40px;
+    height: 40px;
+  }
+
+  &__item {
+    margin-left: 20px;
+
+    &:nth-child(2){
+      margin-left: 16px;
+    }
+  }
+}

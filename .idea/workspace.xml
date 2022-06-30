@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b8978ca-b9a0-4f24-a9d4-6f47ff98d9c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/comic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Goside.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/burger-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/webpack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/expander.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/brends/brends.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/commerce/commerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/contacts/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/descr/descr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/feedback/feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/form/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/full-title/full-title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/lang-list/lang-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/menu/menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modal-call/modal-call.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modal-feedback/modal-feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/prices/prices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/repair/repair.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/scroll/scroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/section-menu/section-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/service/service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/side-menu/side-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/swiper-slide/swiper-slide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/technics/technics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/title/title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/wrapper/wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/TTLakes-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Acer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Acer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Apple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Apple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Bosch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Bosch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Group.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/HP.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/HP.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Lenovo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Lenovo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Picture Copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Samsung.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Samsung.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Sony.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Sony.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ViewSonic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/ViewSonic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/call.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/checkstatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/checkstatus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/expand_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/expand_1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/expand_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/expand_2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/go.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/go.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/repair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/repair.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/search-modal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiper.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/scss/technics/technics.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/expander.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/full-title/full-title.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/swiper-slide/swiper-slide.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/form/form.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/menu/menu.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/title/title.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/footer/footer.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/brends/brends.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/prices/prices.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="200fhwpPf1DPfUJGZSAkznSqUY6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/block7/src/img" />
+      <recent name="$PROJECT_DIR$/block7/src/fonts" />
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/block7/src/img" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b8978ca-b9a0-4f24-a9d4-6f47ff98d9c6" name="Changes" comment="" />
+      <created>1635186552546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635186552546</updated>
+      <workItem from="1635186555836" duration="98127000" />
+      <workItem from="1637356089436" duration="28917000" />
+      <workItem from="1638992302512" duration="21912000" />
+      <workItem from="1640723999774" duration="379000" />
+      <workItem from="1649499506657" duration="6944000" />
+      <workItem from="1650404278830" duration="56131000" />
+      <workItem from="1653510398490" duration="141368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/webpack-static-template" />
+      <path value="$PROJECT_DIR$/block7" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

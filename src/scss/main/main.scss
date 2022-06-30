@@ -1,0 +1,11 @@
+.main{
+  background-color: $bgGrey;
+
+  &__title{
+    @media (min-width: 1440px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+}

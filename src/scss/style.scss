@@ -1,0 +1,104 @@
+$bgBody: white;
+$bgGrey: #F8F8F8;
+$text: #1B1C21;
+$borderColor: #D9FFF5;
+$before: #EAEAEA;
+$element: #41F6D7;
+$headColor: #7E7E82;
+$inputText: #B5B6BC;
+$hover: #ff3e79;
+
+
+
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: auto;
+  font-style: auto;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'TT Lakes Regular', sans-serif;
+  background-color: $bgBody;
+  color: $text;
+  height: 100%;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+@import "../../node_modules/swiper/swiper-bundle.css";
+@import "./title/title.scss";
+@import "./menu/menu.scss";
+@import "./service/service.scss";
+@import "./wrapper/wrapper.scss";
+@import "./main/main.scss";
+@import "./header/header.scss";
+@import "./contacts/contacts.scss";
+@import "./scroll/scroll.scss";
+@import "./descr/descr.scss";
+@import "./full-title/full-title.scss";
+@import "./repair/repair.scss";
+@import "./swiper-slide/swiper-slide.scss";
+@import "./brends/brends.scss";
+@import "./technics/technics.scss";
+@import "./prices/prices.scss";
+@import "./commerce/commerce.scss";
+@import "./footer/footer.scss";
+@import "./side-menu/side-menu.scss";
+@import "./section-menu/section-menu.scss";
+@import "./feedback/feedback.scss";
+@import "./lang-list/lang-list.scss";
+@import "./modal-feedback/modal-feedback.scss";
+@import "./form/form.scss";
+@import "./modal-call/modal-call.scss";
+
+
+
+
+
+
+

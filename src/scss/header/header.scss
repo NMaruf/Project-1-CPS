@@ -1,0 +1,17 @@
+.header {
+  overflow: hidden;
+  margin: 0 auto;
+  border-bottom: 1px solid $borderColor;
+  background-color: $bgBody;
+
+  @media (min-width: 1440px) {
+    display: none;
+  }
+
+  .container {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 24px;
+  }
+}
+

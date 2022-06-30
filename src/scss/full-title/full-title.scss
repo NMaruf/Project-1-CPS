@@ -1,0 +1,21 @@
+.full-title{
+  &__btn{
+    font-family: 'TT Lakes Medium';
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    @media (min-width: 320px) {
+      display: flex;
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    transition: filter 0.3s ease-in-out;
+    filter: opacity(65%);
+  }
+}
+
+.btn-hidden {
+  display: none;
+}

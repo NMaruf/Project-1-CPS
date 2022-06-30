@@ -1,0 +1,30 @@
+.lang-list {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin-top: 40px;
+
+    @media (max-height: 600px) {
+      margin-top: 10px;
+    }
+
+  &__item{
+    margin-right: 7px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+      color: $headColor;
+      cursor: pointer;
+    }
+
+    &:focus{
+      color: $headColor;
+      cursor: pointer;
+    }
+
+    &--focus{
+      color: $headColor;
+    }
+  }
+}
+
